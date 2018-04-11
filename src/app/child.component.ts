@@ -18,7 +18,7 @@ export class ChildComponent implements OnDestroy{
         let change=changes[propertyName];
         let current=JSON.stringify(change.currentValue);
         let previus=JSON.stringify(change.previousValue);
-        console.log(`Name current value is ${current} from previus value is ${previus}.`);
+        console.log(`Name current value is ${current} from previus value is ${previus}.`)
       }
     }
 
